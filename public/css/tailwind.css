@@ -566,7 +566,11 @@ video {
   width: 16rem;
 }
 
-.bg-red-200 {
+.bg-primary {
   --tw-bg-opacity: 1;
-  background-color: rgb(254 202 202 / var(--tw-bg-opacity));
+  background-color: rgb(204 45 74 / var(--tw-bg-opacity));
+}
+
+.font-montserrat {
+  font-family: Montserrat, sans-serif;
 }
