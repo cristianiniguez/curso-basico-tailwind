@@ -1,4 +1,5 @@
 import Home from './sections/Home';
+import Recommended from './sections/Recommended';
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
       <div id='tab-bar'></div>
       <main>
         <Home />
-        <section id='recommended'></section>
+        <Recommended />
         <section id='trending-stays'></section>
       </main>
       <footer></footer>
