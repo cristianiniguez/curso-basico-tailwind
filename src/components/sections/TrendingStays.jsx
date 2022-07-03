@@ -33,7 +33,7 @@ const TrendingStaysCard = ({ className, title, description }) => {
 const TrendingStays = () => {
   return (
     <section className='p-4' id='trending-stays'>
-      <p className='text-3xl text-primary font-semibold pb-4'>Trending Stays</p>
+      <p className='section-title pb-4'>Trending Stays</p>
       <div className='grid gap-4 grid-cols-1 lg:grid-cols-2 auto-rows-[24rem]'>
         {trendingStays.map((t, i) => (
           <TrendingStaysCard key={`trending-stay-${i}`} {...t} />

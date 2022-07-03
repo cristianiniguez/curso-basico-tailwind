@@ -2,8 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+.section-title {
+  @apply text-3xl font-semibold text-primary dark:text-white;
+}
+
 .card {
   @apply w-48 h-64 rounded-lg overflow-hidden shadow-md flex-none transition transform hover:-translate-y-4 hover:shadow-xl;
+}
+
+.card:nth-child(odd) {
+  @apply bg-secondary text-white dark:bg-gray-700;
+}
+
+.card:nth-child(even) {
+  @apply bg-white text-tertiary dark:bg-gray-800 dark:text-gray-300;
 }
 
 .card-title {

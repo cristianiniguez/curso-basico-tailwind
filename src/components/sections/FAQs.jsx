@@ -16,11 +16,11 @@ const questions = [
 const FAQs = () => {
   return (
     <section className='p-4 flex flex-col space-y-4' id='faqs'>
-      <p className='text-3xl text-primary font-semibold mt-6'>FAQs</p>
+      <p className='section-title mt-6'>FAQs</p>
       {questions.map(({ question, answer }, i) => (
         <div key={`question-${i}`}>
-          <p className='text-xl font-medium text-primary'>{question}</p>
-          <p className='text-md pt-2'>{answer}</p>
+          <p className='text-xl font-medium text-primary dark:text-white'>{question}</p>
+          <p className='text-md pt-2 dark:text-white'>{answer}</p>
         </div>
       ))}
     </section>
