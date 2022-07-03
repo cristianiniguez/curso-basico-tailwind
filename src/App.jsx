@@ -1,3 +1,4 @@
+import FAQs from './sections/FAQs';
 import Home from './sections/Home';
 import Recommended from './sections/Recommended';
 import TrendingStays from './sections/TrendingStays';
@@ -11,6 +12,7 @@ function App() {
         <Home />
         <Recommended />
         <TrendingStays />
+        <FAQs />
       </main>
       <footer></footer>
     </>
