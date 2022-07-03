@@ -1,6 +1,9 @@
 const recommendedPlaces = [
   { bg: 'bg-norway', name: 'Norway', description: 'Beautiful landscapes' },
   { bg: 'bg-newYork', name: 'New York', description: 'Concrete jungle' },
+  { bg: 'bg-yosemite', name: 'Yosemite', description: 'A break from the world' },
+  { bg: 'bg-seattle', name: 'Seattle', description: 'Big City' },
+  { bg: 'bg-switzerland', name: 'Switzerland', description: 'Big City' },
 ];
 
 const RecommendedCard = ({ i, bg, name, description }) => {
