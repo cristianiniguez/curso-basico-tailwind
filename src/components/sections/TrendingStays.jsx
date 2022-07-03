@@ -1,11 +1,11 @@
 const trendingStays = [
   {
-    className: 'bg-chicago col-span-full',
+    className: 'bg-chicago lg:col-span-full',
     title: 'Chicago',
     description: '2 rooms, bathroom and kitchen.',
   },
   {
-    className: 'bg-la row-span-2',
+    className: 'bg-la lg:row-span-2',
     title: 'Los Angeles',
     description: '4 rooms, 3 bathrooms, kitchen and private poll.',
   },
