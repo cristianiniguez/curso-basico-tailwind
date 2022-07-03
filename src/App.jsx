@@ -3,12 +3,12 @@ import Recommended from './components/sections/Recommended';
 import TrendingStays from './components/sections/TrendingStays';
 import FAQs from './components/sections/FAQs';
 import Footer from './components/Footer';
+import TabBar from './components/TabBar';
 
 function App() {
   return (
     <>
       <nav></nav>
-      <div id='tab-bar'></div>
       <main>
         <Home />
         <Recommended />
@@ -16,6 +16,7 @@ function App() {
         <FAQs />
       </main>
       <Footer />
+      <TabBar />
     </>
   );
 }
