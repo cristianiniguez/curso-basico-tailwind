@@ -22,14 +22,14 @@ const RecommendedCard = ({ i, bg, name, description }) => {
 
 const Recommended = () => {
   return (
-    <div className='p-6' id='recommended'>
+    <section className='p-6' id='recommended'>
       <p className='text-3xl font-semibold text-primary'>Recomendados</p>
       <div className='w-auto h-72 flex items-center space-x-4 mt-6 overflow-x-auto overscroll-x-contain overflow-y-hidden'>
         {recommendedPlaces.map((place, i) => (
           <RecommendedCard key={`recommended-place-${i}`} i={i} {...place} />
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -1,5 +1,6 @@
 import Home from './sections/Home';
 import Recommended from './sections/Recommended';
+import TrendingStays from './sections/TrendingStays';
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <main>
         <Home />
         <Recommended />
-        <section id='trending-stays'></section>
+        <TrendingStays />
       </main>
       <footer></footer>
     </>
