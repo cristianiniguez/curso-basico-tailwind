@@ -1,7 +1,8 @@
-import FAQs from './sections/FAQs';
-import Home from './sections/Home';
-import Recommended from './sections/Recommended';
-import TrendingStays from './sections/TrendingStays';
+import Home from './components/sections/Home';
+import Recommended from './components/sections/Recommended';
+import TrendingStays from './components/sections/TrendingStays';
+import FAQs from './components/sections/FAQs';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         <TrendingStays />
         <FAQs />
       </main>
-      <footer></footer>
+      <Footer />
     </>
   );
 }
